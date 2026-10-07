@@ -3,31 +3,27 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        
-        <div id="hero-section">
+        <div id="hero">
             <h1>Metric/Imperial Unit Conversion</h1>
-            <input type="text" id="unit">
-            <button id="unitBtn">Convert</button>
+            <input type="text" id="conversion-input">
+            <button id="conversion-btn">Convert</button>
         </div>
-        
-        <div id="conversion-section">
-            <div class="unit-conversion">
-            <h3 class="Conversion">Length (Meter/Feet)</h3>
-            <p id="length"></p>
+        <div id="calculation-section">
+            <div id="length" class="calculation">
+                <h2>Length (Meter/Feet)</h2>
+                <p id="length-calc"></p>
+            </div>
+            
+            <div id="volume"class="calculation">
+                <h2>Volume (Liters/Gallons)</h2>
+                <p id="volume-calc"></p>
+            </div>
+            
+            <div id="mass"class="calculation">
+                <h2>Mass (Kilograms/Pounds)</h2>
+                <p id="mass-calc"></p>
+            </div>
         </div>
-        
-        <div class="unit-conversion">
-            <h3 class="Conversion">Volume (Liters/Gallons)</h3>         
-            <p id="volume"></p>
-        </div>
-        
-        <div class="unit-conversion">
-            <h3 class="Conversion">Mass (Kilograms/Pouns)</h3>
-            <p id="mass"></p>
-        </div>
-        
-        </div>
-        
         <script src="index.js"></script>
     </body>
 </html>
